@@ -1,3 +1,4 @@
+import json
 from bo3_parser import Bo3Parser
 
 
@@ -17,3 +18,8 @@ matches = [
 predicts = Bo3Parser('MSI 2019  - Play-In Día 3 (respuestas)', matches)
 
 print(predicts.parse())
+
+# EXPORT JSON FILE --------------------------------------------------------------
+
+with open('result.json', 'w') as fp:
+    json.dump(predicts.parse(), fp)

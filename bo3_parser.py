@@ -2,7 +2,6 @@ import pandas as pd
 
 
 class Bo3Parser:
-
     df = None
     matches = []
     teams = {
@@ -17,7 +16,7 @@ class Bo3Parser:
         self.matches = matches
 
     def parse(self):
-        return {'user_predicts': self.get_user_predicts()}
+        return {'matches': self.matches, 'user_predicts': self.get_user_predicts()}
 
     def get_user_predicts(self):
         user_predicts = []
