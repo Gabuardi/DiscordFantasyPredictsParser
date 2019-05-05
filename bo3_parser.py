@@ -23,7 +23,7 @@ class Bo3Parser:
         for row in range(self.df.iloc[:, 0].count() - 1):
 
             teams_predictions = []
-            for column in range(2, len(self.matches) + 1):
+            for column in range(2, len(self.matches) + 2):
                 if self.df.iloc[row, column] == self.teams[self.matches[column - 2]['team1']]:
                     teams_predictions.append(1)
                 else:
@@ -33,6 +33,6 @@ class Bo3Parser:
                 'user_name': self.df.iloc[row, 1],
                 'pts': 0,
                 'states': [],
-                'team_predictions': teams_predictions
+                'teams_predictions': teams_predictions
             })
         return user_predicts
