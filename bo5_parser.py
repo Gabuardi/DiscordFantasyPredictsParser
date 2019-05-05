@@ -66,7 +66,7 @@ class Bo5Parser:
                 'pts': 0,
                 'states': [],
                 'teams_predictions': teams,
-                'scores': scores
+                'score_predictions': scores
             })
 
         return user_predicts

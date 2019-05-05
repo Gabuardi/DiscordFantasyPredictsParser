@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a0d4235-61f2-4269-b905-ae39fceb5b93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bo3_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/bo1_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,12 +131,12 @@
       <workItem from="1556915296492" duration="139000" />
       <workItem from="1556943663190" duration="3452000" />
       <workItem from="1557021399018" duration="1312000" />
-      <workItem from="1557056355447" duration="8118000" />
+      <workItem from="1557056355447" duration="8510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15875000" />
+    <option name="totallyTimeSpent" value="16267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
