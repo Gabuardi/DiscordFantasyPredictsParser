@@ -1,11 +1,12 @@
 import json
-from bo3_parser import Bo3Parser
+from bo1_parser import Bo1Parser
+from bo5_parser import Bo5Parser
 
 
-# BO3 PARSER ------------------------------------------------------------------
+# BO1 PARSER ------------------------------------------------------------------
 
 matches = [
-    {'team1': 'DFM', 'team2': 'INT'},
+    {'team1': 'DFM', 'team2': 'ITZ'},
     {'team1': 'VEG', 'team2': 'MEG'},
     {'team1': 'DFM', 'team2': 'MEG'},
     {'team1': 'INT', 'team2': 'VEG'},
@@ -15,11 +16,16 @@ matches = [
     {'team1': 'MEG', 'team2': 'VEG'},
 ]
 
-predicts = Bo3Parser('MSI 2019  - Play-In Día 3 (respuestas)', matches)
+bo1predicts = Bo1Parser('MSI 2019  - Play-In Día 3 (respuestas)', matches)
 
-print(predicts.parse())
+
+# BO5 PARSER ------------------------------------------------------------------
+
+bo5predicts = Bo5Parser('MSI 2019 - Eliminatorias Play-In Día 1 (respuestas)')
+bo5predicts.parse()
+
 
 # EXPORT JSON FILE --------------------------------------------------------------
 
 with open('result.json', 'w') as fp:
-    json.dump(predicts.parse(), fp)
+    json.dump(bo5predicts.parse(), fp)

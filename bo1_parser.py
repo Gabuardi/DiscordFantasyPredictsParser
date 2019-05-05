@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-class Bo3Parser:
+class Bo1Parser:
     df = None
     matches = []
     teams = {
@@ -20,7 +20,7 @@ class Bo3Parser:
 
     def get_user_predicts(self):
         user_predicts = []
-        for row in range(self.df.iloc[:, 0].count() - 1):
+        for row in range(self.df.iloc[:, 0].count()):
 
             teams_predictions = []
             for column in range(2, len(self.matches) + 2):
