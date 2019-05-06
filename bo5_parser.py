@@ -18,8 +18,8 @@ class Bo5Parser:
         self.matches = self.get_matches()
 
     def parse(self):
-        self.get_matches()
-        return {'matches': self.matches, 'user_predicts': self.get_user_predicts()}
+        print('PARSED :)')
+        return {'matches': self.get_matches(), 'user_predicts': self.get_user_predicts()}
 
     def get_matches(self):
         columns = self.df.columns.values
