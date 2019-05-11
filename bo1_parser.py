@@ -43,7 +43,7 @@ class Bo1Parser:
         for row in range(self.df.iloc[:, 0].count()):
 
             teams_predictions = []
-            for column in range(2, len(self.matches) + 2):
+            for column in range(2, len(self.matches) a+ 2):
                 if self.df.iloc[row, column] == self.teams[self.matches[column - 2]['team1']]:
                     teams_predictions.append(1)
                 else:
