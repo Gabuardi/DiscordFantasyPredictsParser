@@ -6,7 +6,7 @@ from bo5_parser import Bo5Parser
 # BO1 PARSER ------------------------------------------------------------------
 
 
-bo1predicts = Bo1Parser('MSI 2019 - Grupos_ Día 4 (respuestas)')
+bo1predicts = Bo1Parser('MSI 2019 - Grupos_ Día 5 (respuestas)')
 
 
 # BO5 PARSER ------------------------------------------------------------------
