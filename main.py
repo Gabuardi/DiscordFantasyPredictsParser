@@ -6,15 +6,15 @@ from bo5_parser import Bo5Parser
 # BO1 PARSER ------------------------------------------------------------------
 
 
-bo1predicts = Bo1Parser('MSI 2019 - Grupos_ Día 5 (respuestas)')
+# bo1predicts = Bo1Parser('MSI 2019 - Grupos_ Día 5 (respuestas)')
 
 
 # BO5 PARSER ------------------------------------------------------------------
 
-# bo5predicts = Bo5Parser('MSI 2019 -  Día 1 (respuestas)')
+bo5predicts = Bo5Parser('MSI 2019 - Semifinales Día 1 (respuestas)')
 
 
 # EXPORT JSON FILE --------------------------------------------------------------
 
 with open('result.json', 'w') as fp:
-    json.dump(bo1predicts.parse(), fp)
+    json.dump(bo5predicts.parse(), fp)

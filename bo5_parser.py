@@ -10,7 +10,11 @@ class Bo5Parser:
         'VEG': 'Vega Squadron',
         'MEG': 'MEGA Esports',
         'TL': 'Team Liquid',
-        'FW': 'Flash Wolves'
+        'FW': 'Flash Wolves',
+        'G2': 'G2 Esports',
+        'SKT': 'SK telecom T1',
+        'IG': 'Invictus Gaming',
+        'PVB': 'Phong Vũ Buffalo'
     }
 
     def __init__(self, file_name):
@@ -48,10 +52,10 @@ class Bo5Parser:
             scores = []
 
             matchIndex = 0
-            for column in range(2, (len(self.matches) * 2) + 2):
+            for column in range(2, 4):
 
                 if cellType == 'match':
-                    if self.df.iloc[row, column] == self.teams[self.matches[matchIndex - 2]['team1']]:
+                    if self.df.iloc[row, column] == self.teams[self.matches[0]['team1']]:
                         teams.append(1)
                     else:
                         teams.append(2)

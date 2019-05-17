@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a0d4235-61f2-4269-b905-ae39fceb5b93" name="Default Changelist" comment="" />
+    <list default="true" id="4a0d4235-61f2-4269-b905-ae39fceb5b93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bo5_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/bo5_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/result.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -25,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bo1_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+            <state relative-caret-position="131">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -34,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bo5_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -62,9 +67,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bo3_parser.py" />
-        <option value="$PROJECT_DIR$/bo5_parser.py" />
         <option value="$PROJECT_DIR$/bo1_parser.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/bo5_parser.py" />
       </list>
     </option>
   </component>
@@ -80,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,6 +101,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,16 +146,18 @@
       <workItem from="1557556930669" duration="2938000" />
       <workItem from="1557638108930" duration="670000" />
       <workItem from="1557727193412" duration="273000" />
+      <workItem from="1557820563995" duration="92000" />
+      <workItem from="1558078020203" duration="1266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24196000" />
+    <option name="totallyTimeSpent" value="25554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1995731" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20384204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -164,7 +171,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2334419" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.40173724" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -179,8 +186,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -189,8 +196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bo1_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        <state relative-caret-position="131">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -199,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bo5_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
