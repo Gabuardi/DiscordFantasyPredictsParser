@@ -11,7 +11,7 @@ from bo5_parser import Bo5Parser
 
 # BO5 PARSER ------------------------------------------------------------------
 
-bo5predicts = Bo5Parser('MSI 2019 - Semifinales Día 1 (respuestas)')
+bo5predicts = Bo5Parser('MSI 2019 - Semifinales Día 2 (respuestas)')
 
 
 # EXPORT JSON FILE --------------------------------------------------------------
